@@ -1,0 +1,144 @@
+/**
+* ! Changing style here.
+**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/**
+* ! Navbar style here.
+**/
+.main-navbar{
+    background-color: #2a9d8f;
+    color: #fff;
+}
+
+/**
+* ! Cart Icon style here.
+**/
+.cart{
+    position: relative;
+    cursor: pointer;
+    background-color: #e9c46a;
+    color: #fff;
+    padding: 8px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.cartPrice{
+    position: absolute;
+    top: -15px;
+    right: -12px;
+    font-size: 16px;
+    background-color: #264653;
+    color: #fff;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.cart-slider {
+    position: fixed;
+    right: -300px;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s;
+}
+
+.cart-slider-content {
+    padding: 20px;
+}
+
+.cart-total {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: baseline;
+}
+
+.cart-slider.open {
+    right: 0;
+}
+
+.cart-close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/**
+* ! Left Side Search bar here.
+**/
+.search-bar {
+    position: relative;
+    height: 45px;
+    border: 2px solid #2a9d8f; 
+    border-radius: 8px;
+}
+.search-icon {
+    position: absolute;
+    right: 4px;
+    top: -2px;
+    font-size: 25px;
+    padding: 5px;
+    color: #e9c46a;
+    transition: all 0.3s;
+}
+
+.search-icon:hover {
+    transform: scale(1.15);
+
+}
+
+/**
+* ! Right Side Product Section here.
+**/
+.product-section {
+    background-color: #fff;
+}
+
+.card {
+    transition: all 0.3s;
+
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.cart-btn-inside {
+    background-color: #264653 !important;
+}
+
+.cart-btn-inside:hover {
+    background-color: #2a9d8f !important;
+}
+
+.cart-btn-outside {
+    background-color: #2a9d8f !important;
+    outline: #fff;
+}
+
+.cart-btn-outside:hover {
+    background-color: #264653 !important;
+    color: #000;
+    outline: #fff;
+}
+
+
+
